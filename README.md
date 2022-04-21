@@ -6,6 +6,13 @@
 
 ### Install
 
+Install `eslint` and `prettier`
+
+```shell
+$ npm install -D eslint prettier
+```
+
+Install `@hyperbolajs/eslint-config`  
 ```shell
 $ npm install -D @hyperbolajs/eslint-config
 ```
@@ -17,17 +24,6 @@ $ npm install -D @hyperbolajs/eslint-config
     // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config"
-    }
-}
-```
-
-Using with TypeScript
-
-```jsonc
-{
-    // ...
-    "eslintConfig": {
-        "extends": "@hyperbolajs/eslint-config/ts"
     }
 }
 ```
@@ -50,6 +46,23 @@ Only node env
     // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config/node"
+    }
+}
+```
+
+### With TypeScript
+
+Install dependents
+
+```shell
+$ npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+```jsonc
+{
+    // ...
+    "eslintConfig": {
+        "extends": "@hyperbolajs/eslint-config/ts"
     }
 }
 ```

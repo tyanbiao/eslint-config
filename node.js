@@ -1,4 +1,4 @@
-const eslintrc = require('./.eslintrs.js')
+const eslintrc = require('./.eslintrc.js')
 
 eslintrc.parserOptions = {
     ecmaVersion: 2022,

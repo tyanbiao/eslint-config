@@ -1,6 +1,6 @@
 {
-  "name": "@hyperbola/eslint-config",
-  "version": "1.0.0",
+  "name": "@hyperbolajs/eslint-config",
+  "version": "1.0.1",
   "description": "Semi-standard eslint config by wwwatson",
   "main": "index.js",
   "author": {
