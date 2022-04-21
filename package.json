@@ -1,0 +1,23 @@
+{
+  "name": "@hyperbola/eslint-config",
+  "version": "1.0.0",
+  "description": "Semi-standard eslint config by wwwatson",
+  "main": "index.js",
+  "author": {
+    "name": "wwwatson",
+    "email": "tyanbiao@gmail.com",
+    "url": "https://tangyanbiao.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyanbiao/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  }
+}
