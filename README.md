@@ -52,7 +52,7 @@ Only node env
 
 ### With TypeScript
 
-Install dependents
+Install dependencies
 
 ```shell
 $ npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
