@@ -11,6 +11,7 @@ module.exports = {
         node: true,
         browser: true,
         commonjs: true,
+        jest: true,
     },
     extends: ['plugin:prettier/recommended'],
     rules: {
