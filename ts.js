@@ -7,4 +7,16 @@ eslintrc.extends = [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
 ]
+eslintrc.rules = {
+    ...eslintrc.rules,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+            argsIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
+            caughtErrorsIgnorePattern: '^_',
+        },
+    ],
+}
 module.exports = eslintrc

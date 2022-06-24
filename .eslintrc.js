@@ -22,5 +22,14 @@ module.exports = {
                 beforeStatementContinuationChars: 'always',
             },
         ],
+        // 下划线开头的变量不被警告
+        'no-unused-vars': [
+            'warn',
+            {
+                argsIgnorePattern: '^_',
+                varsIgnorePattern: '^_',
+                caughtErrorsIgnorePattern: '^_',
+            },
+        ],
     },
 }
