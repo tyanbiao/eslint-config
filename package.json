@@ -1,6 +1,6 @@
 {
   "name": "@hyperbolajs/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Semi-standard eslint config by wwwatson",
   "main": "index.js",
   "author": {
@@ -10,8 +10,11 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "repository": {
     "type": "git",
