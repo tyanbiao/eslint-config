@@ -19,9 +19,8 @@ $ npm install -D @hyperbolajs/eslint-config
 
 ### Edit `package.json`
 
-```jsonc
+```json
 {
-    // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config"
     }
@@ -30,9 +29,8 @@ $ npm install -D @hyperbolajs/eslint-config
 
 Only broswer env
 
-```jsonc
+```json
 {
-    // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config/broswer"
     }
@@ -41,9 +39,8 @@ Only broswer env
 
 Only node env
 
-```jsonc
+```json
 {
-    // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config/node"
     }
@@ -58,11 +55,62 @@ Install dependencies
 $ npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
-```jsonc
+Base
+
+```json
 {
-    // ...
     "eslintConfig": {
         "extends": "@hyperbolajs/eslint-config/ts"
+    },
+    "parserOptions": {
+      "tsconfigRootDir": ".",
+      "project": "tsconfig.json"
     }
+}
+```
+
+Only node 
+
+```json
+{
+    "eslintConfig": {
+        "extends": "@hyperbolajs/eslint-config/ts-node"
+    },
+}
+```
+
+Only braswer 
+
+```json
+{
+    "eslintConfig": {
+        "extends": "@hyperbolajs/eslint-config/ts-broswer"
+    },
+}
+```
+
+### With React
+
+install dependencies
+
+```
+npm install -D eslint-plugin-react
+```
+
+```json
+{
+    "eslintConfig": {
+        "extends": "@hyperbolajs/eslint-config/jsx"
+    },
+}
+```
+
+TypeScript
+
+```json
+{
+    "eslintConfig": {
+        "extends": "@hyperbolajs/eslint-config/tsx"
+    },
 }
 ```

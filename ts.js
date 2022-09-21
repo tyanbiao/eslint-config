@@ -5,7 +5,7 @@ eslintrc.parser = '@typescript-eslint/parser'
 eslintrc.plugins = ['@typescript-eslint']
 eslintrc.extends = [
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    ...eslintrc.extends,
 ]
 eslintrc.rules = {
     ...eslintrc.rules,

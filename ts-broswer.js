@@ -1,4 +1,4 @@
-const eslintrc = require('./.eslintrc.js')
+const eslintrc = require('./ts')
 eslintrc.env = {
     ...eslintrc.env,
     node: false,
