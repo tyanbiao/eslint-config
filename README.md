@@ -52,7 +52,7 @@ Only node env
 Install dependencies
 
 ```shell
-$ npm install -D @typescript-eslint/parser
+$ npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 Base
@@ -94,7 +94,7 @@ Only braswer
 install dependencies
 
 ```
-npm install -D eslint-plugin-react
+npm install -D eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ```json
